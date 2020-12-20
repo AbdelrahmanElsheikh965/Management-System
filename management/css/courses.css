@@ -1,0 +1,151 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Rubik', sans-serif;
+	
+}
+.navbar-brand{
+	font-size: 30px;
+}
+.navbar-nav{
+	font-size: 22px;
+	margin: 1px 20px;
+}
+/* Start heroSection */
+
+.hero-text{
+	text-align: center;
+	justify-content: center;
+	height: 65vh;
+	max-height: 100%;
+	max-width: 100%;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.hero-container h1{
+	  font-size: 40px;
+	  color: #1f1f1f;  
+	  font-weight: 700;
+	  padding: 40px 0;
+	  letter-spacing: 1.5px;
+	  text-shadow: 1px 1px 1.5px #1f1f1f;
+  }
+.hero-container p{
+	color: #585757;
+	font-size: 22px;
+	line-height: 34px;
+	font-weight: 600;
+	
+}  
+/* Start heroSection */
+
+/* Start Footer */
+.foot {
+	display: block;
+	height: 500px;
+	color: aliceblue;
+	background: #090909;
+}
+.foot .foot-class .logo-section a{
+	font-size: 45px;
+	font-weight: 600;
+}
+.foot .foot-class .logo-section p{
+	font-size: 20px;
+	letter-spacing: 0.5px;
+	line-height: 32px;
+	color: #e3e3e3;
+}
+.foot .foot-class .explore-more h4{
+	font-size: 23px;
+	color: #007bff;
+	padding: 24px 0px;
+}
+.foot .foot-class .explore-more ul{
+	list-style: none;
+}
+.foot .foot-class .explore-more ul a{
+	font-weight:200;
+	font-size: 22px;
+	color: #c1c1c1;
+	transition: 0.3s ease-in;
+	text-decoration: none;
+	padding: 1px 1px;
+}
+.foot .foot-class .explore-more ul a:hover{
+	color: #007bff;
+}
+
+.foot .foot-class .properties{
+	box-sizing: border-box;
+}
+.foot .foot-class .properties h4{
+	font-size: 23px;
+	color: #007bff;
+	padding: 24px 0px;
+}
+   
+.foot .foot-class .properties .twitter-feed {
+    grid-template-columns: 0.33fr 1fr;
+	grid-gap: 10px;
+}
+.foot .foot-class .properties .d-grid{
+	display: grid;
+}
+.foot .foot-class .properties a{
+	text-decoration: none;
+	
+}
+.foot .foot-class .properties .img-fluid{
+	max-width: 100%;
+	margin: 3px 0px;
+}
+.foot .foot-class .properties p{
+	color: #e3e3e3;
+}
+.foot .foot-class .properties p:hover{
+	color: #007bff;
+}
+.foot .foot-class .shortcuts h4{
+	font-size: 23px;
+	color: #007bff;
+	padding: 24px 0px;
+}
+.foot .foot-class .shortcuts ul{
+	list-style: none;
+	
+	
+}
+.foot .foot-class .shortcuts ul a{
+	color: #e3e3e3;
+	text-decoration: none;
+}
+.foot .foot-class .shortcuts ul a:hover{
+	color: #007bff;
+	
+}
+.foot .bot-foot{
+	background: #000;
+	height: 116px;
+}
+.foot .bot-foot .social a,
+.foot .bot-foot .copyright a{
+	text-decoration: none;
+}
+.foot .bot-foot .social a i {
+    font-size: 20px;
+    color: #fff;
+    padding: 10px;
+    transition: 0.3s ease;
+}
+.foot .bot-foot .social a i:hover{
+	color: #007bff;
+}
+.foot .bot-foot .copyright p{
+	font-size: 15px;
+	font-weight: 300;
+	color: #c1c1c1;
+}
+/* End Footer */
